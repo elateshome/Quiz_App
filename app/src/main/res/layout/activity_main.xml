@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_marginBottom="16dp"
+    android:orientation="vertical"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingTop="16dp">
+
+
+
+
+    <TextView
+        android:id="@+id/q1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question_1"/>
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="167dp">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/q11"
+            android:text="@string/q1s1"
+            android:onClick="RadioButtonSelect"/>
+
+        <RadioButton
+            android:id="@+id/q12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q1s2"
+            android:onClick="RadioButtonSelect"/>
+
+
+        <RadioButton
+            android:id="@+id/q13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q1s3"
+            android:onClick="RadioButtonSelect"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/q2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/question_2" />
+
+    <CheckBox
+        android:id="@+id/q21"
+
+        android:onClick="CheckBoxSelected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/q2s1"
+        tools:ignore="OnClick" />
+
+    <CheckBox
+        android:id="@+id/q22"
+
+        android:onClick="CheckBoxSelected"
+        tools:ignore="OnClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/q2s2"/>
+
+    <CheckBox
+        android:id="@+id/q23"
+        android:onClick="CheckBoxSelected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/q2s3"
+        tools:ignore="OnClick" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="right"
+        >
+
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_width="wrap_content"
+
+            android:text="@string/btn_reset" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+
+            android:text="@string/btn_submit" />
+    </LinearLayout>
+
+</LinearLayout>

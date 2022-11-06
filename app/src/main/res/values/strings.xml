@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Quiz Application</string>
+    <string name="btn_submit">SUBMIT</string>
+    <string name="btn_reset">RESET</string>
+    <string name="q1s1">google</string>
+    <string name="q1s2">JetBrains</string>
+    <string name="q1s3">Adobe</string>
+    <string name="q2s1">public</string>
+    <string name="q2s2">final</string>
+    <string name="q2s3">abstract</string>
+    <string name="question_1">kotlin is developed by?</string>
+    <string name="question_2">all class in kotlin are by default?</string>
+</resources>
